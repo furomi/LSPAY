@@ -20,8 +20,7 @@ qb-inventory > html > images にimagesフォルダの画像を挿入します。
 -- STEP 2
 qb-core > shared > items.lua に以下を追加します。
 
->
-['lspaya'] 		 	 = {['name'] = 'lspaya', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYA.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$100,000'},
+`['lspaya'] 		 	 = {['name'] = 'lspaya', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYA.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$100,000'},
 ['lspayb'] 		 	 = {['name'] = 'lspayb', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYB.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$500,000'},
 ['lspayc'] 		 	 = {['name'] = 'lspayc', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYC.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$1,000,000'},
-['lspayd'] 		 	 = {['name'] = 'lspayd', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYD.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$5,000,000'},
+['lspayd'] 		 	 = {['name'] = 'lspayd', 				['label'] = 'LSPAY プリペイドカード', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'LSPAYD.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '$5,000,000'},`
